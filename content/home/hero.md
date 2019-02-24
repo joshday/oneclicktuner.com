@@ -39,7 +39,7 @@ hero_media = "tuner.gif"
 #  icon_pack = "fab"
 #  icon = "apple"
 +++
-<br>
+<div style="text-align: center">Musical Instrument Tuner for iOS</div>
 
 <img src="img/Icon-1024.png" style="border-radius: 40px; display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
