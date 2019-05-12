@@ -41,7 +41,7 @@ hero_media = "tuner.gif"
 +++
 <div style="text-align: center">Musical Instrument Tuner for iOS</div>
 
-<img src="img/Icon-1024.png" style="border-radius: 40px; display: block; margin-left: auto; margin-right: auto; width: 50%; height:auto;">
+<img src="img/Icon-1024.png" style="border-radius:40px; display:block; margin-left:auto; margin-right:auto; width:50%; height:auto;">
 
 <br>
 <a href="https://itunes.apple.com/us/app/one-click-tuner/id1448329781?mt=8" style="display:block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-01-10&kind=iossoftware&bubble=apple_music) no-repeat;width:135px;height:40px; margin-left: auto; margin-right: auto; box-shadow: 0 0 20px #FFFFFF;"></a>
