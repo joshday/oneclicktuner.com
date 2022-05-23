@@ -71,8 +71,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6 justify-center ">
-                <img src="images/hero.png" alt="iphone app" className="rounded-3xl shadow-2xl w-64 m-auto" />
-                {/*  */}
+                <img src="images/hero.png" alt="iphone app" className="rounded-3xl w-64 m-auto" />
               </div>
             </div>
           </div>

@@ -36,7 +36,7 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting} className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+      <button type="submit" disabled={state.submitting} className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400">
         Submit
       </button>
     </form>
@@ -45,7 +45,7 @@ function ContactForm() {
 
 export default function Example() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white px-8">
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
       </div>
