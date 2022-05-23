@@ -47,7 +47,7 @@ export default function Example() {
               Here's what people have said about One Click Tuner:
             </p>
           </div>
-          <ul role="list" className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+          <ul className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
             {people.map((person) => (
               <li key={person.quote} className="py-10 px-6 bg-gray-800 rounded-lg xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
