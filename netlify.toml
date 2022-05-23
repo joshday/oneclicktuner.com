@@ -1,0 +1,5 @@
+[build]
+  base = "app/"
+  publish = "build/"
+  command = "npm run build"
+  environment = { NODE_VERSION = "16.15.0" }
