@@ -38,7 +38,7 @@ export default function Example() {
                     <span className="text-indigo-400 md:block">for iOS</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    A uniquely visualized tuner without distractions.
+                    A unique and simple tuner without distractions.
                     <br />No ads, notifications, or rating requests.
                   </p>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
