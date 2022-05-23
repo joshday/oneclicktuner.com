@@ -12,9 +12,6 @@ function ContactForm() {
 
       <form onSubmit={handleSubmit} method="POST" className="grid grid-cols-1 gap-y-6">
 
-      <label htmlFor="email">
-        Email Address
-      </label>
       <input
         id="email"
         type="email"
