@@ -1,24 +1,5 @@
-/*
-  This example requires Tailwind CSS v2.0+
 
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import A from './A'
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { ChevronRightIcon } from '@heroicons/react/solid'
 
 export default function Example() {
   return (
@@ -90,7 +71,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6 justify-center ">
-                <img src="images/hero.png" className="rounded-3xl shadow-2xl w-64 m-auto" />
+                <img src="images/hero.png" alt="iphone app" className="rounded-3xl shadow-2xl w-64 m-auto" />
                 {/*  */}
               </div>
             </div>

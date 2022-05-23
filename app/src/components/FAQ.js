@@ -14,7 +14,7 @@ const faqs = [
     answer: (
       <div>
         <p>The two most common methods of tuner visualization are a needle or a scrolling line, both of which represent the distance in <A href="https://en.wikipedia.org/wiki/Cent_(music)">cents</A> between the note being played and your target note.</p>
-        <img src="images/otherviz.gif" className="w-96 mx-auto" />
+        <img src="images/otherviz.gif" alt="other tuners" className="w-96 mx-auto" />
         <p>
           Non-digital instruments create sound with enough frequency variability that tuners need to "smooth" the frequency so that the needle/line doesn't jump around too much.  One Click Tuner is unique in that it displays the entire distribution of frequencies.
         </p>
@@ -41,17 +41,13 @@ const faqs = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
+    <div className="bg-white px-8">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
             <h2 className="text-3xl font-extrabold text-gray-900">Frequently asked questions</h2>
             <p className="mt-4 text-lg text-gray-500">
-              Can’t find the answer you’re looking for? You can contact us{' '}
-              <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                customer support
-              </a>{' '}
-              here.
+              Can’t find the answer you’re looking for? You can contact us in the form below.
             </p>
           </div>
           <div className="mt-12 lg:mt-0 lg:col-span-2">

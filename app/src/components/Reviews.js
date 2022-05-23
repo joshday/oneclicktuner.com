@@ -3,9 +3,9 @@ import A from './A'
 /* This example requires Tailwind CSS v2.0+ */
 export default function Example() {
   return (
-    <section className="bg-blue-800 px-16">
+    <section className="bg-gray-800 px-16">
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-blue-900 lg:pr-16">
+        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-900 lg:pr-16">
           <div className="md:flex-shrink-0">
             <A href="https://www.theguitarjournal.com/one-click-tuner-minimalist-guitar-tuner-app-frequency-display/">
               <img className="h-24 w-24 rounded-full mx-auto" src="images/guitarjournal.jpg" alt="guitar journal logo" />
@@ -14,7 +14,7 @@ export default function Example() {
           <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
             <div className="relative text-lg font-medium text-white md:flex-grow">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-blue-600"
+                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-600"
                 fill="currentColor"
                 viewBox="0 0 32 32"
               >
@@ -27,7 +27,7 @@ export default function Example() {
           </blockquote>
         </div>
 
-        <div className="py-12 px-4 border-t-2 border-blue-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+        <div className="py-12 px-4 border-t-2 border-gray-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
           <div className="md:flex-shrink-0">
             <A href="https://producthunt.com/posts/one-click-tuner">
               <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=153658&amp;theme=light" alt="One Click Tuner - Innovative Musical Instrument Tuner for iOS | Product Hunt Embed" className="h-16 mx-auto" />
@@ -36,7 +36,7 @@ export default function Example() {
           <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
             <div className="relative text-lg font-medium text-white md:flex-grow">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-blue-600"
+                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-600"
                 fill="currentColor"
                 viewBox="0 0 32 32"
               >
@@ -58,7 +58,7 @@ export default function Example() {
                 </div> */}
                 <div className="ml-4">
                   {/* <div className="text-base font-medium text-white">Joel Sutton</div> */}
-                  <div className="text-base font-medium text-blue-200">Product Hunt Review</div>
+                  <div className="text-base font-medium text-gray-200">Product Hunt Review</div>
                 </div>
               </div>
             </footer>
