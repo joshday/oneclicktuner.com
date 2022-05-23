@@ -40,7 +40,6 @@ export default function Example() {
     <div className="bg-gray-900 px-8">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
-          <QuoteSVG />
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Reviews</h2>
             <p className="text-xl text-gray-300">
