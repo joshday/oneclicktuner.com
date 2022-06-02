@@ -31,11 +31,15 @@ const faqs = [
   }),
   Q({
     question: 'Are there ads?',
-    answer: 'Nope!'
+    answer: 'Nope!  '
   }),
   Q({
     question: 'Do you collect any personal information from me?',
-    answer: "Absolutely not."
+    answer: "No, and we never will."
+  }),
+  Q({
+    question: 'Will anything pop up at me (in-app purchase, etc.)?',
+    answer: "No, we don't like that stuff either."
   }),
 ]
 
