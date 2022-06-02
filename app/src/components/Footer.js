@@ -3,6 +3,7 @@ import A from './A'
 const navigation = {
   main: [
     { name: 'About Us', href: 'https://loonanalytics.com' },
+    { name: 'Privacy', href: '/privacy'}
   ],
   social: [
     {

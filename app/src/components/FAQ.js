@@ -30,7 +30,7 @@ const faqs = [
     )
   }),
   Q({
-    question: 'Are there ads or anything else that gets in the way of me tuning up?',
+    question: 'Are there ads?',
     answer: 'Nope!'
   }),
   Q({
