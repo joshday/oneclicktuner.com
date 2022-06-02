@@ -1,10 +1,7 @@
 import A from './A'
+import { Link } from 'react-router-dom'
 
 const navigation = {
-  main: [
-    { name: 'About Us', href: 'https://loonanalytics.com' },
-    { name: 'Privacy', href: '/privacy'}
-  ],
   social: [
     {
       name: 'Facebook',
@@ -27,13 +24,16 @@ export default function Example() {
     <footer className="bg-gray-200">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
-          {navigation.main.map((item) => (
-            <div key={item.name} className="px-5 py-2">
-              <A href={item.href} className="text-base text-gray-700 hover:text-gray-900">
-                {item.name}
+            <div className="px-5 py-2">
+              <A href='https://loonanalytics.com' className="text-base text-gray-700 hover:text-gray-900">
+                About Us
               </A>
             </div>
-          ))}
+            <div className="px-5 py-2">
+              <Link to='/privacy' className="text-base text-gray-700 hover:text-gray-900">
+                Privacy
+              </Link>
+            </div>
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
           {navigation.social.map((item) => (

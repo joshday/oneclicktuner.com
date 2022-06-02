@@ -7,14 +7,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 export default function App() {
   return (
     <div className="App">
-      <Nav />
       <BrowserRouter>
+      <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/privacy" element={<Privacy />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

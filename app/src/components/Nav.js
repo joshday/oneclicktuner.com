@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = [
   // { name: 'FAQ', href: '/', current: false },
@@ -33,7 +34,9 @@ export default function Example() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img src="images/icon-1024.png" className="h-8 rounded-md mr-2" alt="logo" />
-                  <h1 className="text-gray-50 text-2xl">One Click Tuner</h1>
+                  <Link to="/">
+                    <h1 className="text-gray-50 text-2xl">One Click Tuner</h1>
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
