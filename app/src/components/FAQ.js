@@ -35,8 +35,8 @@ const faqs = [
   }),
   Q({
     question: 'Do you collect any personal information from me?',
-    answer: "Some other tuners track you and your personal information.  We do not and never will."
-  })
+    answer: "Absolutely not."
+  }),
 ]
 
 export default function Example() {
