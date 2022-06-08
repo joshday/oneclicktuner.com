@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-800 sticky">
+    <Disclosure as="nav" className="bg-gray-900 sticky">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -33,9 +33,9 @@ export default function Example() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img src="images/icon-1024.png" className="h-8 rounded-md mr-2" alt="logo" />
+                  <img src="images/Logo.svg" className="h-8 rounded-md mr-4" alt="logo" />
                   <Link to="/">
-                    <h1 className="text-gray-50 text-2xl">One Click Tuner</h1>
+                    <h1 className="text-gray-200 text-2xl">One Click Tuner</h1>
                   </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">

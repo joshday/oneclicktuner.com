@@ -3,10 +3,10 @@ import A from './A'
 
 export default function Example() {
   return (
-    <div className="relative bg-gray-800 overflow-hidden px-4">
+    <div className="relative bg-gray-900 overflow-hidden px-4">
       <div className="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
         <svg
-          className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0"
+          className="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-cyan-900 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0"
           width={364}
           height={384}
           viewBox="0 0 364 384"
@@ -35,13 +35,13 @@ export default function Example() {
                 <div>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                     <span className="md:block">Chromatic Tuner</span>{' '}
-                    <span className="text-indigo-400 md:block">for iOS</span>
+                    <span className="text-cyan-500 md:block">for iOS</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     A unique and simple tuner without distractions.
                     <br />No ads, notifications, or rating requests.
                   </p>
-                  <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
 
                   </p>
                   <p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10"></p>
