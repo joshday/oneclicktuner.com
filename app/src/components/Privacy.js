@@ -72,14 +72,20 @@ export default function Example() {
         <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">
-              Last Updated June 1, 2022
+              Last Updated June 8, 2022
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Privacy Policy
             </span>
           </h1>
-          <p className="mt-8 text-xl text-gray-500 leading-8 text-center">
-            One Click Tuner does not ask for nor use any personal data.
+          <p className="mt-8 text-xl text-gray-700 leading-8 text-center">
+            The One Click Tuner app does not ask for nor use any personal data.
+          </p>
+          <p className="mt-8 text text-gray-500 leading-8 text-left">
+            This website (oneclicktuner.com) uses Google Analytics™ to collect statistics on how people interact with the site.  This does not include personal information, but general information like country, browser, time spent on the site, etc.
+          </p>
+          <p className="mt-8 text text-gray-500 leading-8 text-left">
+            Updates to this privacy policy will be made without notice to app users, but our commitment to never ask for or use personal data will forever be a core tenant of our privacy policy.
           </p>
         </div>
       </div>
