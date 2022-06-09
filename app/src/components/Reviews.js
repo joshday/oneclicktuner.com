@@ -64,7 +64,7 @@ export default function Example() {
                         </p>
                       </div>
                     </blockquote>
-                      <p className="text-indigo-400 text-center pt-2">{person.attribution}</p>
+                      <p className="text-cyan-400 text-center pt-2">{person.attribution}</p>
                     </div>
                   </div>
                 </div>

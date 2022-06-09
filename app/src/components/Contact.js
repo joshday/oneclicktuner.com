@@ -3,6 +3,8 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("xwkyyppr");
   if (state.succeeded) {
@@ -17,7 +19,7 @@ function ContactForm() {
         type="email"
         name="email"
         autoComplete="email"
-        className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+        className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-cyan-500 focus:border-cyan-500 border-gray-300 rounded-md"
         placeholder="Email"
       />
       <ValidationError
@@ -28,7 +30,7 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
-        className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+        className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-cyan-500 focus:border-cyan-500 border border-gray-300 rounded-md"
         placeholder="Message"
       />
       <ValidationError
@@ -36,7 +38,7 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting} className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400">
+      <button type="submit" disabled={state.submitting} className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-cyan-500 hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400">
         Submit
       </button>
     </form>
