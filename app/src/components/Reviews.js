@@ -14,15 +14,13 @@ const people = [
     attribution: "Email from user",
     imgsrc: "images/user.svg",
     imgalt: "User logo",
-    imgclass: "invert"
   },
   {
     quote: "It costs a less than most cups of coffee, and the clean, intuitive, no-nonsense, ad-free experience makes it immediately apparent that it was money well-spent.",
     attribution: "ProductHunt user",
     href: "https://producthunt.com/posts/one-click-tuner",
     imgsrc: "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=153658&amp;theme=light",
-    imgalt: "Product Hunt Badge",
-    imgclass: ""
+    imgalt: "Product Hunt Badge"
   }
 ]
 

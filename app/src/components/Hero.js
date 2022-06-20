@@ -48,22 +48,22 @@ export default function Example() {
                   <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">
                       <div className="flex justify-center mx-auto px-1">
-                        <A href="https://apps.apple.com/us/app/one-click-tuner/id1448329781">
-                          <img
+                        <A href="https://apps.apple.com/us/app/one-click-tuner/id1448329781" className="app-store-button">
+                          {/* <img
                             className="w-32px align-middle pb-2"
                             src="images/5stars.svg"
                             alt="five stars"
-                          />
+                          /> */}
                           <img
-                            className=""
+                            className="w-64"
                             src="images/appstorebadge.svg"
                             alt="buy on the app store"
                           />
-                          <img
+                          {/* <img
                             className="w-32px align-middle pt-2"
                             src="images/5stars.svg"
                             alt="five stars"
-                          />
+                          /> */}
                         </A>
                       </div>
                     </div>
