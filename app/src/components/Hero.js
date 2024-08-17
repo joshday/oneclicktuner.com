@@ -39,7 +39,7 @@ export default function Example() {
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     A unique tuner without distractions.
-                    <br /><span class="text-gray-500">No ads, notifications, or rating requests</span>.
+                    <br /><span class="text-cyan-400">No ads, notifications, or rating requests</span>.
                   </p>
                   <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
 

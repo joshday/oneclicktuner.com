@@ -25,17 +25,17 @@ const faqs = [
     question: 'What instruments can One Click Tuner tune?',
     answer: (
       <div>
-        <p>Just about any of them!  Most of our users are guitar players, but One Click Tuner also works for basses, banjos, mandolins, etc.</p>
+        <p>All of them!  Most of our users are guitar players, but One Click Tuner also works for basses, banjos, mandolins, etc.</p>
       </div>
     )
   }),
   Q({
     question: 'Are there ads?',
-    answer: 'Nope!  '
+    answer: 'No. Never.'
   }),
   Q({
     question: 'Do you collect any personal information from me?',
-    answer: "No, and we never will."
+    answer: "No.  Never."
   }),
   Q({
     question: 'Will anything pop up at me (in-app purchase, etc.)?',

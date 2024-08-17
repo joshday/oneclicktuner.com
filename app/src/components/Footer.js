@@ -40,7 +40,7 @@ export default function Example() {
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
             <div className="px-5 py-2">
-              <A href='https://loonanalytics.com' className="text-base text-gray-500 hover:text-gray-300">
+              <A href='https://heyjoshday.com' className="text-base text-gray-500 hover:text-gray-300">
                 About Us
               </A>
             </div>
@@ -58,7 +58,7 @@ export default function Example() {
             </A>
           ))}
         </div>
-        <p className="mt-8 text-center text-base text-gray-700">&copy; 2022 Loon Analytics, LLC. All rights reserved.</p>
+        {/* <p className="mt-8 text-center text-base text-gray-700">&copy; 2022 Joshua Day. All rights reserved.</p> */}
       </div>
     </footer>
   )
