@@ -38,8 +38,8 @@ export default function Example() {
                     <span className="text-cyan-400 md:block">for iOS</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    A unique and simple tuner without distractions.
-                    <br />No ads, notifications, or rating requests.
+                    A unique tuner without distractions.
+                    <br /><span class="text-gray-500">No ads, notifications, or rating requests</span>.
                   </p>
                   <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
 
